@@ -110,7 +110,7 @@ const TopBar = () => {
               className="flex flex-col items-center focus:outline-none"
             >
               <div className="w-6 h-6 rounded-full overflow-hidden">
-                <img src={profile} alt="profile image" />
+                <img src={profile} alt="user profile" />
               </div>
               <span className="text-gray-400 text-xs mt-1 hidden lg:flex">Profile
                 <svg className="w-4 h-4 ml-1 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -127,12 +127,12 @@ const TopBar = () => {
             className="relative lg:hidden focus:outline-none"
           >
             <div className="w-8 h-8 rounded-full overflow-hidden">
-              <img src={profile} alt="profile image" />
+              <img src={profile} alt="user profile" />
             </div>
-            <span className='absolute top-[22px] rounded-full right-0 w-[15px] h-[15px] bg-white'>
-            <svg width="14" height="14" className='mt-[1px]' viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M3.0769 4.19226H11.4904M3.0769 6.79643H11.4904M3.0769 9.40059H11.4904" stroke="#707070" strokeWidth="1.20192" strokeMiterlimit="10" strokeLinecap="round" />
-            </svg>
+            <span className='absolute top-[22px] rounded-full right-0 w[15px] h[15px] bg-white'>
+              <svg width="14" height="14" className='mt-[1px]' viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3.0769 4.19226H11.4904M3.0769 6.79643H11.4904M3.0769 9.40059H11.4904" stroke="#707070" strokeWidth="1.20192" strokeMiterlimit="10" strokeLinecap="round" />
+              </svg>
             </span>
           </button>
           {/* Desktop Profile Menu */}
@@ -141,7 +141,7 @@ const TopBar = () => {
             <div className="p-4 border-b">
               <div className="flex items-center space-x-3">
                 <div className="w-12 h-12 rounded-full overflow-hidden">
-                  <img src={profile} alt="profile image" />
+                  <img src={profile} alt="user profile" />
                 </div>
                 <div>
                   <h3 className="font-medium">Ahmed Amaar</h3>
@@ -185,7 +185,7 @@ const TopBar = () => {
               <div className="p-4 border-b">
                 <div className="flex items-center space-x-3">
                   <div className="w-12 h-12 rounded-full overflow-hidden">
-                    <img src={profile} alt="profile image" />
+                    <img src={profile} alt="user profile" />
                   </div>
                   <div>
                     <h3 className="font-medium">Ahmed Amaar</h3>
@@ -237,10 +237,10 @@ const TopBar = () => {
                 </Link>
                 <Link to="/notifications" className="flex items-center space-x-3 py-3">
                   <span className='relative'>
-                  <svg width="20" height="20" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M13.4173 9.26533C13.4173 9.62669 13.2737 9.97325 13.0182 10.2288C12.7627 10.4843 12.4161 10.6278 12.0548 10.6278H3.87978L1.15479 13.3528V2.45283C1.15479 2.09147 1.29833 1.74492 1.55385 1.4894C1.80937 1.23388 2.15593 1.09033 2.51728 1.09033H12.0548C12.4161 1.09033 12.7627 1.23388 13.0182 1.4894C13.2737 1.74492 13.4173 2.09147 13.4173 2.45283V9.26533Z" stroke="#7D7D7D" strokeWidth="1.09" strokeLinecap="round" strokeLinejoin="round" />
-                  </svg>
-                  <span className="absolute -top-[9px] -right-1 bg-red-500 text-white text-xs rounded-full w-4 h-4 flex items-center justify-center">1</span>
+                    <svg width="20" height="20" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M13.4173 9.26533C13.4173 9.62669 13.2737 9.97325 13.0182 10.2288C12.7627 10.4843 12.4161 10.6278 12.0548 10.6278H3.87978L1.15479 13.3528V2.45283C1.15479 2.09147 1.29833 1.74492 1.55385 1.4894C1.80937 1.23388 2.15593 1.09033 2.51728 1.09033H12.0548C12.4161 1.09033 12.7627 1.23388 13.0182 1.4894C13.2737 1.74492 13.4173 2.09147 13.4173 2.45283V9.26533Z" stroke="#7D7D7D" strokeWidth="1.09" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
+                    <span className="absolute -top-[9px] -right-1 bg-red-500 text-white text-xs rounded-full w-4 h-4 flex items-center justify-center">1</span>
                   </span>
 
                   <span>Messaging</span>
